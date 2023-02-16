@@ -1,5 +1,16 @@
 # IN\_SILICO_PCR
 ***
+
+## Use in Docker
+
+https://hub.docker.com/repository/docker/yokohide0317/in_silico_pcr/general
+
+```
+docker run --rm -v $(pwd):/data yokohide0317/in_silico_pcr:latest in_silico_PCR.pl \
+    -s query.fasta -a (forward primer sequence) -b (reverse primer sequence) > results.txt 2> amplicons.fasta
+```
+
+
 ## CONTENTS
 
 1. **Introduction**
